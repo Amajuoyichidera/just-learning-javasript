@@ -125,13 +125,13 @@
 
 // if and else statements 
 
-let youLikeMeat = true;
+// let youLikeMeat = true;
 
-if (youLikeMeat) {
-  document.write("yeah you like meat");
-}else{
-  document.write("fuck off")
-}
+// if (youLikeMeat) {
+//   document.write("yeah you like meat");
+// }else{
+//   document.write("fuck off")
+// }
 
 // let myNum = 10;
 
@@ -144,3 +144,37 @@ if (youLikeMeat) {
 // } else{
 //   document.write("false, abeg shift");
 // }
+
+// else and if statements
+
+// let myAge = 39;
+// if (myAge > 30) {
+//   document.write("liar you are 18 years and not over 30");
+// } else if (myAge > 20){
+//   document.write("you are over 20");
+// } else if (myAge > 10){
+//   document.write("you are over 10");
+// } else{
+//   document.write("you are not over 10");
+// }
+
+
+// logical operators
+
+// && and     
+// Here myAge must pass the two condition required
+// let myAge = 25;
+// if (myAge >= 18 && myAge <= 30) {
+//   document.write("you can come, you cool dude");     
+// } else {
+//   document.write("fuck off, you aint coming");
+// }
+
+// ||  or
+// Here myAge must pass either of the two conditions required
+let myAge = 25;
+ if (myAge < 18 || myAge > 30) {
+   document.write("abeg shift");
+  } else {
+   document.write("come in buddy");
+ }
